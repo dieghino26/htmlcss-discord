@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: center;
     min-height: 80px;
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     padding: 15px;
 
 }
@@ -63,10 +63,13 @@ header {
 /* jumbotron */
 .jumbotron {
     display: flex;
-    min-height: 500px;
+    min-height: 600px;
     justify-content: center;
-    background-color: #00008B;
     padding: 40px;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+
 }
 
 .download-discord {
