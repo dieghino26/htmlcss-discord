@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+
 }
 
 /* Generals */
@@ -33,6 +36,10 @@ section {
 
 }
 
+a:visited {
+    text-decoration: none;
+}
+
 /* header */
 header {
     display: flex;
@@ -44,7 +51,7 @@ header {
 }
 
 .main-header {
-    flex-basis: 60%;
+    flex-basis: 80%;
     background-color: goldenrod;
     display: flex
 }
@@ -69,13 +76,45 @@ header {
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
+    color: #fff;
 
 }
 
 .download-discord {
     flex-basis: 50%;
-    background-color: #EE82EE;
     border: 2px dashed black;
+    text-align: center;
+
+}
+
+h1 {
+    padding: 70px;
+    font-size: 3.8rem
+}
+
+.download-discord p {
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+
+.download {
+    font-size: 1.5rem;
+    color: #19263e;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+
+.open-discord {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #19263e;
+    padding: 20px;
+    border-radius: 40px;
 
 }
 
