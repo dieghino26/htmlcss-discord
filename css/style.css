@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-decoration: none;
+    list-style-type: none;
 
 }
 
@@ -90,6 +91,16 @@ a {
     color: #fff;
 }
 
+li {
+    padding: 10px 0px;
+    color: #fff;
+}
+
+ul {
+    margin-top: 40px;
+    color: #7289DA;
+}
+
 /* jumbotron */
 .jumbotron {
     display: flex;
@@ -144,6 +155,7 @@ h1 {
 .info-call,
 .quality-info {
     background-color: #D3D3D3;
+
 }
 
 h2 {
@@ -208,63 +220,67 @@ h2 {
 }
 
 /* info list*/
-.info-list {
-    flex-basis: 70%;
-    background-color: #20B2AA;
-    border: 2px dashed black;
-    display: flex;
-
-
-}
-
-.list {
-
-    flex-basis: 25%;
-    border: 2px dashed #fff
-}
-
-/*main footer*/
 footer {
     background-color: #23272A;
 }
 
 .socials {
     flex-basis: 30%;
-    background-color: #F08080;
-    border: 2px dashed black;
+    padding: 40px;
+    color: #7289DA;
+    border-bottom: 2px solid #363F55;
 }
 
-.info-creators {
-    border-bottom: 2px solid #fff;
+.socials h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
 
+.italy-flag {
+    height: 20px;
+}
+
+.language {
+    display: inline;
+}
+
+.socials i {
+    padding: 15px 15px 15px 0px;
+}
+
+.info-list {
+    flex-basis: 70%;
+    display: flex;
+    border-bottom: 2px solid #363F55;
 
 }
 
-.footer {
-    min-height: 130px;
-    padding: 30px 50px 0px 50px;
+.list {
+    display: flex;
+    justify-content: center;
+    flex-basis: 25%;
+}
 
+footer section {
+    padding-bottom: 20px;
+}
+
+/*main footer*/
+.container-bottom {
+    display: flex;
+    justify-content: center;
 }
 
 .bottom-bar {
-    flex-basis: 100%;
-    background-color: #7FFFD4;
     display: flex;
-    padding: 30px 0px 30px 0px;
-    border: 2px dashed black;
     justify-content: space-between;
-}
-
-.bottom-logo {
-
-    flex-basis: 100px;
-    background-color: #FFB6C1;
-    border: 2px dashed black;
+    align-items: center;
+    flex-basis: 60%;
 }
 
 .button {
-
-    flex-basis: 100px;
-    background-color: #FFB6C1;
-    border: 2px dashed black;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #8EA1E1;
+    border-radius: 40px;
 }
